@@ -1,0 +1,25 @@
+.mapWrapper {
+    position:fixed;
+    top:0;
+    right:0;
+    width:60vw;
+    height:100vh;
+}
+
+@media only screen and (max-width: 900px) {
+    .homepage {
+       display: flex;
+       flex-direction:column-reverse;
+    }
+    .mapWrapper {
+        position: relative;
+        width:100vw;
+        height:80vh;
+    }
+    .businessListWrapper {
+        width:100%!important;
+    }
+}
+
+
+
